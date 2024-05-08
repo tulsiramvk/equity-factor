@@ -10,6 +10,7 @@ import Slider from './Components/Slider/Slider';
 import { useState, useEffect } from 'react';
 import YoutubeVideo from './Components/Youtube/YoutubeVideo';
 import { Routes, Route } from 'react-router-dom';
+import OurGallery from './Components/Gallery/Gallery';
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
 
       <Courses />
 
+      <OurGallery />
 
       {/* <YoutubeVideo /> */}
       <Clients />
