@@ -1,0 +1,12 @@
+.vidBlock{
+    width: 47%;
+    margin-bottom: 30px;
+}
+@media (max-width:768px) {
+    .vidBlock{
+        width: 98%;
+        margin: auto;
+        margin-bottom: 30px;
+        
+    }
+}

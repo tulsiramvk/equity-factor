@@ -1,0 +1,47 @@
+.client_wrapper{
+    padding: 110px 0px;
+}
+.client_block1{
+    width: 30%;
+    margin-left: 5%;
+}
+.client_block2{
+    width: 40%;
+    margin-left: 10%;
+    text-align: center;
+    padding: 10px;
+}
+.client_ico{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+@media (max-width:768px) {
+    .client_block1{
+        width: 70%;
+        text-align: center;
+        margin-left: 0%;
+        margin: auto;
+    }
+    .client_block2{
+        width: 70%;
+        text-align: center;
+        margin-left: 0%;
+        margin: auto;
+    }
+}
+@media (max-width:400px) {
+    .client_block1{
+        width: 97%;
+        margin: auto;
+        
+    }
+    .client_block2{
+        width: 97%;
+        margin: auto;
+        
+    }
+}

@@ -1,0 +1,155 @@
+.width-80 {
+    width: 87%;
+}
+
+.width_80 {
+    width: 73%;
+}
+
+.ml_auto {
+    margin-left: auto;
+}
+
+.mr_auto {
+    margin-right: auto;
+}
+
+.bg_black {
+    background-color: #202020;
+}
+
+.bg_yellow {
+    background-color: #FED51B;
+}
+
+.myrow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify_space_between {
+    justify-content: space-between;
+}
+
+.align_center {
+    align-items: center;
+    align-content: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 40px;
+}
+
+.title2 {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 40px;
+    line-height: 75px;
+}
+
+.space {
+    padding: 80px 0px;
+}
+
+.input {
+    width: 100%;
+    border: 2px solid #eceef2;
+    padding: 10px;
+    font-size: 16px;
+    color: #8799a3;
+}
+
+.input_wrapper {
+    margin-bottom: 20px;
+
+}
+
+.input:focus {
+    outline: none !important;
+}
+
+.input::placeholder {
+    font-weight: 600;
+    color: #8799a3;
+}
+
+.button_solid_yellow {
+    text-align: center;
+    border: 2px solid #FED51B;
+    color: #202020;
+    padding: 12px 30px;
+    background-color: #FED51B;
+    border-radius: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button_solid_yellow:hover {
+    background-color: #202020;
+    transition: 0.3s;
+    color: #fff;
+    border-color: #202020;
+}
+
+.button_outline_black {
+    text-align: center;
+    border: 1px solid #202020;
+    color: #202020;
+    padding: 12px 30px;
+    background-color: transparent;
+    border-radius: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button_outline_black:hover {
+    transition: 0.3s;
+    border: 1px solid #202020;
+    background-color: #202020;
+    color: #fff;
+    font-weight: 500;
+}
+
+.button_outline_white {
+    text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 30px;
+    background-color: transparent;
+    border-radius: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+.button_outline_white:hover {
+    transition: 0.3s;
+    border: 1px solid #FED51B;
+    background-color: #FED51B;
+    color: #fff;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@media (max-width:1191px) {
+    .width-80 {
+        width: 98% !important;
+    }
+
+    .width_80 {
+        width: 96% !important;
+    }
+}

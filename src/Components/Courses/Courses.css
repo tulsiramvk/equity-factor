@@ -1,0 +1,39 @@
+.course_block {
+    width: 50%;
+    background-color: #202020;
+    padding: 130px 20px;
+    text-align: center;
+}
+
+.course_block:first-child {
+    background-color: #FED51B;
+}
+
+.course_block:last-child {
+    background-color: #202020;
+}
+
+.course_wrapper {
+    margin-bottom: 4px;
+}
+
+.css-5itiqr-BaseToolTop {
+    /* width: 230px !important; */
+    text-align: left !important;
+    background-color: transparent !important;
+}
+
+.ttcontent {
+    text-align: left !important;
+    width: 230px !important;
+    padding: 10px;
+    padding-bottom: 1px;
+    background-color: rgba(254, 213, 27, 1) !important;
+}
+
+@media (max-width:768px) {
+    .course_block {
+        width: 100%;
+    }
+
+}

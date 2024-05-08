@@ -1,0 +1,29 @@
+.c_block {
+    width: 46%;
+    margin: 30px 5px;
+}
+
+.input_block {
+    width: 45%;
+}
+
+.c_content {
+    color: #8799a3;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+@media (max-width:991px) {
+    .c_block {
+        width: 98% !important;
+    }
+
+    .input_block {
+        width: 98% !important;
+    }
+
+    .c_content {
+        font-size: 15px;
+    }
+
+}
