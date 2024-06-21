@@ -22,6 +22,10 @@
     background-color: #FED51B;
 }
 
+.text_yellow {
+    color: #FED51B !important;
+}
+
 .myrow {
     display: flex;
     flex-wrap: wrap;

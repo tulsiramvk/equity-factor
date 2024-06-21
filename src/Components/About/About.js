@@ -119,6 +119,58 @@ const About = () => {
                 </div>
                 <div id="courses"></div>
             </div>
+
+            <div className="width-80 ml_auto mb-3">
+                <div className="myrow" style={{ alignContent: 'center' }}>
+                    <div className="about1 space2 bg_black">
+                        <div style={{ padding: '0px 25px' }}>
+                            <div className="title2" style={{ color: '#FED51B', fontSize: '25px', marginBottom: '0px', lineHeight: '40px' }}>TRAINER'S PROFILE</div>
+                            <div className="title2 text-white" style={{}}>ATISH SHAKERGAYE</div>
+                            <div className="">
+                                <p className="c_content text-white">
+                                    Driven by a lifelong passion for the financial markets <span className="text-warning">since 2008</span>, I've dedicated over a decade to mastering the art of market research and technical analysis. As a <span className="text-warning">SEBI Registered (INH000006086) Research Analyst</span>, I empower aspiring traders to unlock the core concepts of technical analysis, become professional market participants, and navigate the markets with confidence. With a portfolio of prestigious certifications, including NISM, NSE, and BSE credentials, I bring a wealth of expertise to the table. Whether you're a beginner or a seasoned investor, I'm here to guide you toward becoming a professional trader. Join me on an exhilarating journey to master the art of trading by understanding the core concept of technical analysis.
+                                </p>
+                                <p className="c_content text-white">
+                                    My professional experience includes positions in investment banking, asset management, and financial consulting, giving me a well-rounded view on the business. I've also been recognized for my ability to demystify complicated financial topics and successfully explain them to a variety of groups.
+                                </p>
+                                <p className="c_content text-white">
+                                    Click below icon to view linkedin profile.
+                                </p>
+                                <a href={'https://linkedin.com/in/atish-shakergaye-5296542bb'} target='blank' className='text-white'>
+                                  <i className="bi bi-linkedin text-warning" style={{fontSize:'20px'}}></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="about2 space2 bg_black">
+                        <div style={{ padding: '0px 20px' }}>
+                            <div className='text-center mb-3'>
+                                <img src="https://api.scoutstack.co.in/media/sstr/scoutstack/qrcodes/200cb02d1c5c477a93227fbc6cc371ed.jpg" style={{ width: '200px', height: '190px', objectFit: 'cover', borderRadius: '12px', objectPosition: 'left' }} alt="" />
+                            </div>
+
+                            <div className="title2" style={{ color: '#FED51B', fontSize: '25px', marginBottom: '0px', lineHeight: '40px' }}>MY CERTIFICATIONS</div>
+                            <ul className='mt-3'>
+                                <li className="c_content mb-2 text-white">Certificate of Registration As Research Analyst, Jul 2018</li>
+                                <li className="c_content mb-2 text-white">NISM-Series-X-A: Investment Adviser (Level 1) Certification Examination, Aug 2016</li>
+                                <li className="c_content mb-2 text-white">NSE Certified Market Professional (NCMP), Apr 2010</li>
+                                <li className="c_content mb-2 text-white">Commodities Market Module, Mar 2010</li>
+                                <li className="c_content mb-2 text-white">Equity Derivatives: A Beginners’ Module, Mar 2010</li>
+                                <li className="c_content mb-2 text-white">Surveillance in Stock on various position Module, Mar 2010</li>
+                                <li className="c_content mb-2 text-white">BSE’s Certification On Securities Markets, Mar 2008</li>
+                                <li className="c_content mb-2 text-white">Capital Market (Dealers) Module, Mar 2008</li>
+                                <li className="c_content mb-2 text-white">BSE’s Certification for Derivatives Exchange, Nov 2007</li>
+                                <li className="c_content mb-2 text-white">Derivatives Market (Dealers) Module, Nov 2007</li>
+                                <li className="c_content mb-2 text-white">Financial Market: A Beginners’ Module, Aug 2007</li>
+                                <li className="c_content mb-2 text-white">IRDA Certification (Insurance Agent Exam)</li>
+                                <li className="c_content mb-2 text-white">NISM Series-XV: Research Analyst Certification Examination</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }
