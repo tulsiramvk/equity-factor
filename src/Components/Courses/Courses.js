@@ -61,7 +61,7 @@ const Courses = () => {
                 <div className="course_block">
                     <div className="title text-white mb-0">ADVANCE COURSE</div>
                     <div className="title text-white" style={{ fontSize: '18px' }}>ADVANCE TECHNICAL ANALYSIS</div>
-                    <div className="title text-white mb-3">₹ 15,999/-</div>
+                    <div className="title text-white mb-3">₹ 25,999/-</div>
                     <div className="title mb-0 text-white" style={{ fontSize: '18px' }}>DURATION - 45 DAYS</div>
                     <div className="title text-white mb-0" style={{ fontSize: '18px' }}>(Daily 45 Minutes Theory + 45 Minutes Practical)</div>
                     <div className="title text-white" style={{ fontSize: '18px' }}>(Live Market Practice)</div>
